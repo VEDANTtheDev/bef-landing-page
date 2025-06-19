@@ -10,7 +10,7 @@ const AboutBEF = () => {
 
         {/* Image */}
         <img
-          src="/images/bef-banner.png"
+          src="https://static.wixstatic.com/media/1c7400_877ab8e86dc84b38aff8fc6f89cf5cdf~mv2.png/v1/fill/w_948,h_693,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1c7400_877ab8e86dc84b38aff8fc6f89cf5cdf~mv2.png"
           alt="BEF Clothing Event"
           className="w-full max-w-2xl mx-auto rounded-xl shadow-lg mb-8"
         />

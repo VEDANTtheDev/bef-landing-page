@@ -1,10 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  base: '/bef-landing-page/', // 👈 Replace with your GitHub repo name if it's different
+  plugins: [
+    react(),
     tailwindcss(),
   ],
-})
+});
