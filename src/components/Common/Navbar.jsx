@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-7">
         {/* Logo */}
         <div className="flex items-center">
           <img
@@ -15,41 +15,41 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="flex flex-wrap justify-center gap-4 text-gray-700 font-medium text-sm md:text-base">
+        <div className="flex flex-wrap justify-center gap-9 text-gray-700 font-medium text-sm md:text-base">
           <a href="#home" className="hover:text-pink-600">
             Home
           </a>
           <a href="#about" className="hover:text-pink-600">
             About BEF
           </a>
-          <a href="#opportunities" className="hover:text-pink-600">
+          {/* <a href="#opportunities" className="hover:text-pink-600">
             Opportunities
-          </a>
-          <a href="#industries" className="hover:text-pink-600">
+          </a> */}
+          {/* <a href="#industries" className="hover:text-pink-600">
             Industries
-          </a>
-          <a href="#whyfashion" className="hover:text-pink-600">
+          </a> */}
+          {/* <a href="#whyfashion" className="hover:text-pink-600">
             Why Fashion
-          </a>
-          <a href="#conclave" className="hover:text-pink-600">
+          </a> */}
+          {/* <a href="#conclave" className="hover:text-pink-600">
             Conclave
-          </a>
+          </a> */}
           <a href="#eventdetails" className="hover:text-pink-600">
             Event Details
           </a>
           <a href="#pricing" className="hover:text-pink-600">
             Pricing
           </a>
-          <a href="#attend" className="hover:text-pink-600">
+          {/* <a href="#attend" className="hover:text-pink-600">
             Who Should Attend
-          </a>
+          </a> */}
           <a href="#register" className="hover:text-pink-600">
-            Secure Your Spot
+            Register
           </a>
           <a href="#faqs" className="hover:text-pink-600">
             FAQs
           </a>
-          <a href="#contact" className="hover:text-pink-600">
+          <a href="#about" className="hover:text-pink-600">
             Contact
           </a>
         </div>

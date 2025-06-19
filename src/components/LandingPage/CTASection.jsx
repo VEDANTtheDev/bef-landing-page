@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASection = () => {
   return (
-    <section id="contact" className="py-16 bg-pink-600 text-white text-center scroll-mt-24">
+    <section id="register" className="py-16 bg-pink-600 text-white text-center scroll-mt-24">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           Secure Your Spot Now

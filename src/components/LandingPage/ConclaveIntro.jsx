@@ -20,7 +20,7 @@ const ConclaveIntro = () => {
         </p>
 
         <img
-          src="/images/conclave-banner.png" // 💡 Replace with your actual image path
+          src="src/assets/images/conclave-banner.jpg" // 💡 Replace with your actual image path
           alt="BEF Conclave"
           className="w-full max-w-3xl mx-auto rounded-xl shadow-lg mb-8"
         />
