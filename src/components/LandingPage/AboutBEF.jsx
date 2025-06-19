@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutBEF = () => {
   return (
-    <section className="py-16 bg-pink-50 text-gray-800 scroll-mt-24">
+    <section id="about" className="py-16 bg-pink-50 text-gray-800 scroll-mt-24">
       <div className="max-w-5xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
           About Bharat Economic Forum (BEF)
