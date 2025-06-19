@@ -1,28 +1,49 @@
-import React from 'react';
+import React from "react";
 
 const PricingSection = () => {
   const pricingOptions = [
     {
-      title: "Individual Pass",
-      price: "₹2,000",
-      features: ["Access to all sessions", "Networking opportunities", "Entry to exhibitions"]
+      title: "Standard Delegate Pass",
+      price: "₹35,000",
+      features: [
+        "2 Round table sessions",
+        "Delegate Kit",
+        "Unlimited Snacks, meals and cocktails",
+        "Digital Certificate of Participation",
+      ],
+    },
+    {
+      title: "Duo Delegate Pass",
+      price: "₹55,000 (2 Members)",
+      features: [
+        "Standard Delegate benefits",
+        "VIP seating",
+        "Premium Delegate Kit",
+        "Personalized VIP Invitation Card",
+        "Priority registration",
+      ],
     },
     {
       title: "Group Delegate Pass",
-      price: "₹8,000 (5 Members)",
-      features: ["All Individual Pass benefits", "Team networking access", "Special group activities"]
+      price: "₹1,00,000  (5 Persons in a group)",
+      features: [
+        "Standard Delegate benefits",
+        "Family & Friends can participate in a group",
+        "Team learning experience",
+        "Networking Advantage",
+      ],
     },
-    {
-      title: "Exhibitor Pass",
-      price: "₹15,000",
-      features: ["Premium booth space", "Product showcase slot", "VIP networking sessions"]
-    }
   ];
 
   return (
-    <section id="pricing" className="py-16 bg-gray-100 text-gray-800 scroll-mt-24">
+    <section
+      id="pricing"
+      className="py-16 bg-gray-100 text-gray-800 scroll-mt-24"
+    >
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8">Pricing & Passes</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8">
+          Pricing & Passes
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {pricingOptions.map((option, index) => (
@@ -48,7 +69,9 @@ const PricingSection = () => {
           ))}
         </div>
 
-        <p className="mt-8 text-gray-600">*Group discounts are available for more than 5 members.</p>
+        <p className="mt-8 text-gray-600">
+          *Group discounts are available for more than 5 members.
+        </p>
       </div>
     </section>
   );
