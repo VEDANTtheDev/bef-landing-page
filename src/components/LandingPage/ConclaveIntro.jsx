@@ -1,4 +1,5 @@
 import React from "react";
+import conclaveBanner from "../../assets/images/conclave-banner.jpg"; // ✅ Correct image import
 
 const ConclaveIntro = () => {
   return (
@@ -20,7 +21,7 @@ const ConclaveIntro = () => {
         </p>
 
         <img
-          src="src/assets/images/conclave-banner.jpg" // 💡 Replace with your actual image path
+          src={conclaveBanner} // ✅ Uses the imported image
           alt="BEF Conclave"
           className="w-full max-w-3xl mx-auto rounded-xl shadow-lg mb-8"
         />

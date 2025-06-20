@@ -1,4 +1,5 @@
 import React from "react";
+import befLogo from "../../assets/images/bef-logo.jpeg"; // ✅ Correct import
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="src/assets/images/bef-logo.jpeg"
+            src={befLogo} // ✅ Use imported variable
             alt="BEF Logo"
             className="h-12 w-auto"
           />
@@ -16,42 +17,13 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="flex flex-wrap justify-center gap-9 text-gray-700 font-medium text-sm md:text-base">
-          <a href="#home" className="hover:text-pink-600">
-            Home
-          </a>
-          <a href="#about" className="hover:text-pink-600">
-            About BEF
-          </a>
-          {/* <a href="#opportunities" className="hover:text-pink-600">
-            Opportunities
-          </a> */}
-          {/* <a href="#industries" className="hover:text-pink-600">
-            Industries
-          </a> */}
-          {/* <a href="#whyfashion" className="hover:text-pink-600">
-            Why Fashion
-          </a> */}
-          {/* <a href="#conclave" className="hover:text-pink-600">
-            Conclave
-          </a> */}
-          <a href="#eventdetails" className="hover:text-pink-600">
-            Event Details
-          </a>
-          <a href="#pricing" className="hover:text-pink-600">
-            Pricing
-          </a>
-          {/* <a href="#attend" className="hover:text-pink-600">
-            Who Should Attend
-          </a> */}
-          <a href="#register" className="hover:text-pink-600">
-            Register
-          </a>
-          <a href="#faqs" className="hover:text-pink-600">
-            FAQs
-          </a>
-          <a href="#about" className="hover:text-pink-600">
-            Contact
-          </a>
+          <a href="#home" className="hover:text-pink-600">Home</a>
+          <a href="#about" className="hover:text-pink-600">About BEF</a>
+          <a href="#eventdetails" className="hover:text-pink-600">Event Details</a>
+          <a href="#pricing" className="hover:text-pink-600">Pricing</a>
+          <a href="#register" className="hover:text-pink-600">Register</a>
+          <a href="#faqs" className="hover:text-pink-600">FAQs</a>
+          <a href="#about" className="hover:text-pink-600">Contact</a>
         </div>
       </div>
     </nav>
