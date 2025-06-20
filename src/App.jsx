@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import LandingPage from './pages/LandingPage.jsx';
-import Navbar from './components/common/Navbar.jsx';
-import Footer from './components/common/Footer.jsx';
+import LandingPage from "./pages/LandingPage.jsx";
+import Navbar from "./components/Common/Navbar.jsx";
+import Footer from "./components/Common/Footer.jsx";
 
 const App = () => {
   return (
